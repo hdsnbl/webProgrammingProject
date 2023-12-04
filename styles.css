@@ -1,0 +1,21 @@
+.box{
+  border-style: solid;
+  width: 350px;
+  text-align: center;
+}
+
+.box2{
+  border-style: solid;
+  width: 500px;
+  text-align: center;
+}
+
+th{
+  padding: 5px;
+  text-align: center;
+  /* width: 50px; */
+}
+
+/* .table{
+  text-align: center;
+} */
