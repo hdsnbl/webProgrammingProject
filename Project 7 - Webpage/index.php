@@ -11,9 +11,6 @@ session_start()
     <title>Web Programming Project</title>
     <link rel="stylesheet" href="styles.css">
     <script src="myscript.js"></script>
-    <!-- <script type="text/javascript">
-      var clearSessionVars = <?php $_SESSION[""]=""; ?>;
-    </script> -->
 </head>
 <body>
   <div class="box">
@@ -36,21 +33,17 @@ session_start()
       <input type="number" id="minPrice" name="minPrice" step="0.01" value="<?php echo $_SESSION["minPrice"]; ?>"><br>
 
       <label for="maxPrice">Maximum Price:</label>
-      <input type="number" id="maxPrice" name="maxPrice" step="0.01" value="<?php echo $_SESSION["maxPrice"]; ?>"><br>
-      
+      <input type="number" id="maxPrice" name="maxPrice" step="0.01" value="<?php echo $_SESSION["maxPrice"]; ?>"><br>     
       
       <button type="submit">
         Search Products
       </button>
     </form>
-    <form action="index3.php" method="post">
-        <button type="reset" onclick="clearForm()">
-          Clear Form
-        </button>
-      </form>
-    
+    <form>
+      <button type="reset" onclick="clearForm()">
+        Clear Form
+      </button>
+    </form>
   </div>
-    
-
 </body>
 </html>
